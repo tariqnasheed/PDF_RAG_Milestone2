@@ -1,0 +1,11 @@
+# Dependencies for the PDF RAG Pipeline (Program 2)
+
+langchain                      # Core LangChain framework
+langchain-google-genai         # Google Gemini chat model & embeddings
+langchain-community            # PDF loaders (PyPDFLoader, DirectoryLoader) and Chroma
+langchain-text-splitters       # Text splitters (RecursiveCharacterTextSplitter)
+chromadb                       # Vector database for storing embeddings
+pypdf                          # PDF text extraction
+python-dotenv                  # Load API key from .env file
+langchain-huggingface          # HuggingFace embeddings
+sentence-transformers       # Underlying model for embeddings
